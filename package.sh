@@ -1,5 +1,6 @@
 #!/bin/sh
-if [ $0 == prod ]
+
+if [ "$1" = "prod" ]
 then
    echo "Prod deployment"
 else
